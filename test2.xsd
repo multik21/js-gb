@@ -1,0 +1,63 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="employees">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="employee">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:extension base="xs:string"/>
+                            <xs:element type="xs:integer" name="id"/>
+                            <xs:element type="xs:string" name="firstName"/>
+                            <xs:element type="xs:string" name="lastName"/>
+                            <xs:element type="xs:string" name="patronymic"/>
+                            <xs:element type="xs:string" name="birth"/>
+                            <xs:element type="xs:string" name="employment"/>
+                            <xs:element type="xs:string" name="post"/>
+                            <xs:element type="xs:string" name="division"/>
+                            <xs:element name="document">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="view"/>
+                                        <xs:element type="xs:integer" name="series"/>
+                                        <xs:element type="xs:integer" name="number"/>
+                                        <xs:element type="xs:string" name="issued"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="registrationAddress">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="city"/>
+                                        <xs:element type="xs:string" name="street"/>
+                                        <xs:element type="xs:integer" name="house"/>
+                                        <xs:element type="xs:integer" name="flat"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="actualAddress">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="city"/>
+                                        <xs:element type="xs:string" name="street"/>
+                                        <xs:element type="xs:integer" name="house"/>
+                                        <xs:element type="xs:integer" name="flat"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element type="xs:integer" name="driverlicense"/>
+                            <xs:element name="auto">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="model"/>
+                                        <xs:element type="xs:string" name="mark"/>
+                                        <xs:element type="xs:integer" name="year"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

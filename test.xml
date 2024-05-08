@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<employees>
+	<employee>
+      <id>1</id>
+      <firstName>Иван</firstName>
+      <lastName>Васильевич</lastName>
+      <patronymic>Васильевич</patronymic>
+      <birth>01.01.1967</birth>employment
+      <employment>01.01.2002</employment>
+      <post>Системный аналитик</post>
+      <division>Интеграции данных</division>driver license
+      <document>
+        <view>Pasport</view>
+        <series>3467</series>
+        <number>879678</number>
+        <issued>ОУФМС г.Москвы</issued>
+    </document>
+    <registrationAddress>
+        <city>Москва</city>
+        <street>5-Пятилетки</street>
+        <house>89</house>
+        <flat>23</flat>
+    </registrationAddress>
+    <actualAddress>
+         <city>Москва</city>
+        <street>5-Пятилетки</street>
+        <house>89</house>
+        <flat>23</flat>
+    </actualAddress>
+    <driverlicense>56789076</driverlicense>
+    <auto>
+        <model>Lexus</model>
+        <mark>GX600</mark>
+        <year>2024</year>
+    </auto>
+	</employee>
+</employees>
+
